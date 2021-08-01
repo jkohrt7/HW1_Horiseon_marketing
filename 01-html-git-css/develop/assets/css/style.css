@@ -1,3 +1,4 @@
+/* General styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header and navbar content */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,6 +47,11 @@ body {
     color: #462A7D;
 }
 
+#navBar h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,6 +61,7 @@ p {
     font-size: 16px;
 }
 
+ /* Picture before articles */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,6 +71,7 @@ p {
     background-position: center;
 }
 
+ /* Main Articles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,6 +88,26 @@ p {
     margin-left: 20px;
 }
 
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff; 
+    
+}
+
+.content section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+ /* Sidebar content*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,41 +119,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefits {
-    margin-bottom: 32px;
+.benefits section{
+    margin-bottom: 40px;
     color: #ffffff;
-}
-
-#navBar h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 .benefits img {
     display: block;
     margin: 10px auto;
+    margin-top: 0px;
     max-width: 150px;
 }
 
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff; 
-    
-}
 
-.content img {
-    max-height: 200px;
-}
-
-.content section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Content */
 .copyright-footer {
     padding: 30px;
     clear: both;
