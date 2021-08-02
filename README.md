@@ -9,3 +9,7 @@ It is hosted on GitHub Pages and can be accessed here: https://jkohrt7.github.io
 
 ## Credit  
 Much of the original webpage was provided by Trilogy Education Services as part of the UNC Full-Stack Coding Bootcamp.
+
+## License
+This repo is licensed under the MIT license; see LICENSE.txt in the root directory for more info.
+MIT License Copyright (c) [2021] [Jared Kohrt]
